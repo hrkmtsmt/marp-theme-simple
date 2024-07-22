@@ -1,0 +1,19 @@
+{
+  "name": "marp-theme-simple",
+  "version": "1.0.0",
+  "author": "hrkmtsmt",
+  "license": "MIT",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preview": "marp --allow-local-files --theme ./theme/style.css --server ./slide",
+    "export:html": "marp --allow-local-files --theme ./theme/style.css",
+    "export:pdf": "marp --allow-local-files --theme ./theme/style.css --pdf"
+  },
+  "dependencies": {
+    "@marp-team/marp-cli": "3.4.0",
+    "cspell": "^8.11.0",
+    "destyle.css": "^4.0.1",
+    "textlint": "^14.0.4"
+  }
+}
