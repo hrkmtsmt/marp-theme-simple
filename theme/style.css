@@ -43,32 +43,18 @@ h1 {
   color: var(--color-black);
 }
 
-h2 {
-  font-size: 3rem;
-  line-height: 150%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: var(--padding);
-  color: var(--color-black);
-}
-
 h1 > img.emoji {
   width: 80px;
 }
 
-h2 > img.emoji {
-  width: 64px;
-}
-
-h1 > img.emoji, h2 > img.emoji {
+h1 > img.emoji, h3 > img.emoji {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-h3 {
+h2 {
   width: 100%;
   font-size: 4rem;
   line-height: 150%;
@@ -86,12 +72,26 @@ h3 {
   right: 0;
 }
 
-h3 > img.emoji {
+h2 > img.emoji {
   width: 160px;
   height: 160px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h3 > img.emoji {
+  width: 64px;
+}
+
+h3 {
+  font-size: 3rem;
+  line-height: 150%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: var(--padding);
+  color: var(--color-black);
 }
 
 ul, ol {

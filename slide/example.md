@@ -9,16 +9,19 @@ class: invert
 
 ---
 
-## 😊Paragrap
+## 🐯これは吹き出し用見出しです！タグはH2を使っています！
+
+---
+
+### 😊Paragrap
 
 This is example text.
 
 あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。
 
-
 ---
 
-## 🤓Order List
+### 🤓Order List
 
 1. HTML
 2. CSS
@@ -26,7 +29,7 @@ This is example text.
 
 ---
 
-## 🙄Unorder List
+### 🙄Unorder List
 
 - TypeScript
 - Go
@@ -35,7 +38,7 @@ This is example text.
 
 ---
 
-## 😵Code
+### 😵Code
 
 `npm run dev`これはコードです。
 
@@ -47,12 +50,8 @@ function sum(a: number, b: number) {
 
 ---
 
-## 😆Blockquate
+### 😆Blockquate
 
 > Hello World!
 >
 > こんにちは世界！
-
----
-
-### 🐯これは吹き出し用見出しです！タグはH3を使っています！
