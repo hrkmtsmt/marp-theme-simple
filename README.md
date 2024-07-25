@@ -1,9 +1,23 @@
 # Marp Theme "Simple"
 
-## Export PDF
-
 Use [marp-cli](https://github.com/marp-team/marp-cli?tab=readme-ov-file).
 
+## Preview
+
 ```
-pnpm export
+pnpm preview
+```
+
+## Export
+
+### HTML
+
+```
+pnpm export:html <FILE_NAME>
+```
+
+### PDF
+
+```
+pnpm export:pdf <FILE_NAME>
 ```
