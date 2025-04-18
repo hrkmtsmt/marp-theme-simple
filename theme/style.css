@@ -34,21 +34,22 @@ section {
 }
 
 h1 {
-  font-size: 4rem;
-  line-height: 150%;
+  font-size: 80px;
+  line-height: 120px;
   margin: 0;
   padding: 0;
   display: flex;
-  gap: var(--padding);
+  flex-direction: column;
+  gap: 64px;
   color: var(--color-black);
 }
 
 h1 > img.emoji {
-  width: 80px;
+  width: 120px;
+  height: 120px;
 }
 
 h1 > img.emoji, h3 > img.emoji {
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,8 +57,8 @@ h1 > img.emoji, h3 > img.emoji {
 
 h2 {
   width: 100%;
-  font-size: 4rem;
-  line-height: 150%;
+  font-size: 64px;
+  line-height: 96px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -80,13 +81,9 @@ h2 > img.emoji {
   align-items: center;
 }
 
-h3 > img.emoji {
-  width: 64px;
-}
-
 h3 {
-  font-size: 3rem;
-  line-height: 150%;
+  font-size: 48px;
+  line-height: 64px;
   margin: 0;
   padding: 0;
   display: flex;
@@ -94,8 +91,15 @@ h3 {
   color: var(--color-black);
 }
 
+h3 > img.emoji {
+  width: 48px;
+  height: 48px;
+  padding: 8px 0;
+}
+
 ul, ol {
   padding: 0;
+  padding-left: 16px;
   margin: 0;
   list-style-position: inside;
 }
@@ -111,9 +115,14 @@ blockquote {
 }
 
 marp-pre {
-  font-size: 1.5rem;
+  font-size: 20px;
   background-color: var(--color-black); 
   padding: var(--padding);
   border-radius: var(--rounded);
   line-height: 150%;
+}
+
+img {
+  max-height: 480px;
+  border-radius: var(--rounded);
 }
